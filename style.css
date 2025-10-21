@@ -1,10 +1,129 @@
- /* Color de fondo de la página */
+@font-face {
+    font-family: 'titulos';
+    src: url('./fonts/fully_completely_br/fullcomp.ttf') format('truetype');
+}
 body {
-    background-color: #ff0000; 
+    background-color: #000000; 
     margin: 5%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: #222;
 }
+
+h1 {
+    color:#e7dfdf;
+    font-family: 'titulos';
+    font-size: 60px;
+}
+
+h2 {
+    color:#e7dfdf;
+    font-family: 'titulos';
+    font-size: 30px;
+}
+
+/* estilos del header y navegación */
+.site-header {
+    background: rgba(0,0,0,0.6);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 5%;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: #e7dfdf;
+    font-family: 'titulos', sans-serif;
+    text-decoration: none;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* navegación desktop */
+.site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.site-nav a {
+    color: #e7dfdf;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background .15s, color .15s;
+}
+.site-nav a:hover {
+    background: rgba(255,255,255,0.04);
+}
+
+/* toggle (mobile) */
+.nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    display: none;
+    width: 36px;
+    height: 28px;
+    cursor: pointer;
+}
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: #e7dfdf;
+    height: 3px;
+    border-radius: 3px;
+    transition: transform .2s ease, opacity .2s ease;
+    position: relative;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.nav-toggle-label span::before { top: -9px; }
+.nav-toggle-label span::after  { top: 9px; }
+
+/* responsive: colapsa el nav en pantallas pequeñas */
+@media (max-width: 800px) {
+    .site-nav { 
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.85);
+        display: none;
+        padding: 12px 5%;
+    }
+    .site-nav ul {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .nav-toggle { display: block; }
+    .nav-toggle-label { display: block; }
+
+    /* al activar el checkbox mostramos el nav */
+    .nav-toggle:checked ~ .site-nav {
+        display: block;
+    }
+
+
+}
+
 
 .miembros_equipo {
     display: flex;
@@ -12,4 +131,16 @@ body {
     justify-content: space-around;
     gap: 20px;
     margin-top: 20px;
+}
+.miembro{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 0px;
+    background: rgba(231,223,223,0.02);
+    text-align: center;
+    width: 30%; 
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
 }
