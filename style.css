@@ -1,6 +1,12 @@
+/* FUENTES */
 @font-face {
     font-family: 'titulos';
     src: url('./fonts/fully_completely_br/fullcomp.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'subtitulos';
+    src: url('./fonts/blur-regular_w215h/BlurRegular/BlurRegular.ttf') format('truetype');
 }
 body {
     background-color: #000000; 
@@ -9,6 +15,8 @@ body {
     color: #222;
 }
 
+
+/* TEXTOS */
 h1 {
     color:#e7dfdf;
     font-family: 'titulos';
@@ -19,6 +27,23 @@ h2 {
     color:#e7dfdf;
     font-family: 'titulos';
     font-size: 30px;
+}
+
+h3 {
+    color:#e7dfdf;
+    font-family: 'titulos';
+    font-size: 40px;
+}
+
+h4 {
+    color:#e7dfdf;
+    font-family: 'subtitulos';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color:#e7dfdf;
 }
 
 /* estilos del header y navegación */
@@ -124,6 +149,22 @@ h2 {
 
 }
 
+.equipo{
+    display: flex;
+    align-items: right;
+    width: 100%;
+}
+
+.imagen_equipo{
+    width: 40%;
+}
+
+#info{
+    margin-top: 15px;
+    color:#fdfdfd;
+    width: 50%;
+}
+
 
 .miembros_equipo {
     display: flex;
@@ -137,10 +178,21 @@ h2 {
     padding: 1%;
     border-radius: 0px;
     background: rgba(231,223,223,0.02);
-    text-align: center;
     width: 30%; 
     box-sizing: border-box;
 
     display: flex;
-    flex-direction: row;
+    align-items: right;
+
+}
+
+.miembro_img{
+    justify-content: left;
+    width: 40%;
+}
+.miembro_info{
+    text-align: right;
+    width: 60%;
+    margin-left: 10px;
+    
 }
