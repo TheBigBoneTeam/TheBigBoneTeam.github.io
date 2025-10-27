@@ -8,6 +8,12 @@
     font-family: 'subtitulos';
     src: url('./fonts/blur-regular_w215h/BlurRegular/BlurRegular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'texto';
+    src: url('./fonts/du_bellay/dubellay.ttf') format('truetype');
+}
+
 body {
     background-color: #000000; 
     margin: 5%;
@@ -26,7 +32,7 @@ h1 {
 h2 {
     color:#e7dfdf;
     font-family: 'titulos';
-    font-size: 30px;
+    font-size: 60px;
 }
 
 h3 {
@@ -44,6 +50,27 @@ h4 {
 
 p {
     color:#e7dfdf;
+    font-family: 'texto';
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* logo */
+.logoheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 20px;
+
+}
+
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8%;
+    margin-top: 20px;
 }
 
 /* estilos del header y navegación */
