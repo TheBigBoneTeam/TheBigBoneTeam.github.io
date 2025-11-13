@@ -298,3 +298,25 @@ figcaption{
                 justify-content: left;
                 text-align: left;
             }
+
+.contacto{
+    margin-bottom: 50px;
+}
+.contacto h4{
+    color:#ff0000;
+    justify-content: center;
+    text-align: center;
+}
+.redes{
+
+    display: flex;
+    flex-wrap: wrap; /* para que las imágenes bajen a otra fila si no caben */
+    gap: 50px;       /* espacio entre imágenes */
+    margin-bottom: 80px;
+    
+}
+.seccion_contacto{
+
+    margin-bottom: 80px;
+    
+}
