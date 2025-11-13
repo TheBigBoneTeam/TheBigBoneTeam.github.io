@@ -1,7 +1,7 @@
 /* FUENTES */
 @font-face {
     font-family: 'titulos';
-    src: url('./fonts/fully_completely_br/fullcomp.ttf') format('truetype');
+    src: url('./fonts/lawan/Lawan.ttf') format('truetype');
 }
 
 
@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'texto';
-    src: url('./fonts/du_bellay/dubellay.ttf') format('truetype');
+    src: url('./fonts/hypermarket/hypermarket-regular.ttf') format('truetype');
 }
 
 html{
