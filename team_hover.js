@@ -8,8 +8,20 @@ areas.forEach(area=> {
 
         switch (zona){
             case 'zonaEdu':
-                info.innerHTML = 
-                '<div class="miembro_info"><h3> EL EDU</h3> <h4> ARTISTA 3D y ARTISTA TÉCNICO</h4><p> Pues dibuja y modela muy bien</p></div>';
+                info.innerHTML = `
+                    <div class="miembro">  
+                        <div class="miembro_info">
+                            <h3> EL EDU</h3>
+                            <h4> ARTISTA 3D y ARTISTA TÉCNICO</h4>
+                            <p> Pues dibuja y modela muy bien</p>
+                        </div>
+                        <div class="miembro_img">
+                                <img src="images/members/Edu.gif" alt="Foto de Edu" width="360%"/>
+                            </div>
+                    </div>
+                `;
+
+
 
                 break;
             default: 
