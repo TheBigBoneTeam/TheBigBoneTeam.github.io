@@ -63,6 +63,15 @@ p {
     text-align: center;
 }
 
+i {
+    color:#ff0000;
+    font-family: 'texto';
+    font-size: 20px;
+    justify-content: center;
+    
+    text-align: center;
+}
+
 figcaption{
     color:#ffffff;
     font-family: 'texto';
@@ -229,9 +238,138 @@ figcaption{
     overflow: visible;
 }
 
+/*ENEMIGOS*/
+
+.seccion_pjs{
+    text-align: center;
+}
+
+.coyote{
+    display: flex;             
+    flex-direction: row;    
+    vertical-align: top;    
+    width: 80%;          
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+    .desc_coyote{
+        text-align: left;
+        vertical-align: top;
+        width: 100%;               
+        display: flex;             
+        white-space: normal;
+        flex-direction: column;
+    }
+    .desc_coyote p, i{
+        text-align: justify;
+    }
+
+
+
+.carrusel_wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.flecha_der{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  
+  font-size: 3rem;     
+  width: 60px;            
+  height: 60px;           
+
+  color: rgb(255, 0, 0);           
+  background: none;
+  border: none;
+
+
+  cursor: pointer;        
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.flecha_der:hover {
+  color: rgba(255, 255, 255, 0.8);
+  transform: translateY(-50%) scale(1.1); /* efecto de zoom */
+}
+
+.flecha_izq{
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  
+  font-size: 3rem;     
+  width: 60px;            
+  height: 60px;           
+
+  color: rgb(255, 0, 0);           
+  background: none;
+  border: none;
+
+
+  cursor: pointer;        
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.flecha_izq:hover {
+  color: rgba(255, 255, 255, 0.8);
+  transform: translateY(-50%) scale(1.1); /* efecto de zoom */
+}
+
+
+.carrusel_enemigos{
+    display: flex;             
+    flex-direction: row;       
+    gap: 20px;                       
+    padding: 0px 10px;
+    white-space: nowrap;     
+
+    vertical-align: top;    
+    align-items: flex-start;
+
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+
+
+.enemigo{
+    display: flex;             
+    flex-direction: column;    
+    vertical-align: top;    
+    width: 600px;          
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+    .desc_enemigo{
+        text-align: center;
+        vertical-align: top;
+        width: 100%;               
+        display: flex;             
+        white-space: normal;
+        flex-direction: column;
+    }
+
+.anim{
+    width: 600px;
+    height: auto; 
+}
+
+.anim_dummy{
+    width: 400px;
+    height: auto; 
+}
+
 .equipo{
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
     vertical-align: top;
     width: 100%;
 
@@ -259,7 +397,7 @@ figcaption{
     margin-top: 20px;
 }
     .miembro{
-        border: 1px solid rgb(255, 255, 255);
+        border: none;
         padding: 0%;
         padding-top: 0%;
         border-radius: 0px;
@@ -306,6 +444,7 @@ figcaption{
     color:#ff0000;
     justify-content: center;
     text-align: center;
+    
 }
 .redes{
 
@@ -313,10 +452,22 @@ figcaption{
     flex-wrap: wrap; /* para que las imágenes bajen a otra fila si no caben */
     gap: 50px;       /* espacio entre imágenes */
     margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
 .seccion_contacto{
 
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
     
 }

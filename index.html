@@ -42,9 +42,14 @@
     </div>
     
     <div class="inicio">
-      <p> Duros de roer</p>
-      <p> Somos The Big Bone, un equipo independiente desarrollando Proyecto Coyote, un videojuego de acción y misterio ambientado en el salvaje oeste</p>
       <br> 
+      <video class= "anim_dummy" autoplay loop muted playsinline>
+            <source src="animations/Dummy.webm" type="video/webm">
+          </video>
+          <div class = "desc_enemigo">
+            <h4>¡Bienvenidx!</h4>
+          </div>
+      <p> Somos The Big Bone, un equipo independiente desarrollando Proyecto Coyote, un videojuego de acción y misterio ambientado en el salvaje oeste</p>
       <a href="#proyecto" class="boton">Descubre Proyecto Coyote</a>
     </div>
 
@@ -56,7 +61,82 @@
     </div>
     
     <div class="proyecto">
-    <p>Un videojuego de acción en tercera persona donde tendrás que resolver el misterio de un pequeño pueblo del oeste a puñetazo limpio.</p>
+      <p>Un videojuego de acción en tercera persona donde tendrás que resolver el misterio de un pequeño pueblo del oeste a puñetazo limpio.</p>
+    </div>
+
+    <div class = "seccion_pjs">
+      <h3>Coyote el puñohierro</h3>
+      <div class = "coyote">
+        <video class= "anim" autoplay loop muted playsinline>
+            <source src="animations/Coyote.webm" type="video/webm">
+          </video>
+          <div class = "desc_coyote">
+            <h4>El Forastero de los puños de Cobre</h4>
+            <i> "Prómeteme que cuando muera, llevarás mis polvorientos resquicios a aquel pequeño oasis del desierto" </i>
+            <p> Tras un largo viaje, finalmente te encuentras cerca de aquel pequeño manantial que tanto visitabáis de jóvenes. 
+              Tu misión comienza en un inhóspito pueblo de la zona, habitado por peculiares criaturas de apariencia poco afable. 
+              El sol se asoma por el rocoso cañón situado tras la villa...</p>
+            
+          </div>
+      </div>
+      
+    </div>
+    <div class="seccion_pjs">
+      <h3>Conoce a los extraños seres que habitan Proyecto Coyote</h3>
+
+      <div class = "carrusel_wrapper">
+        <button class = "flecha_izq">&#10094;</button>
+
+        <div class = "carrusel_enemigos">
+
+          <!---------------Pájaro--------------->
+          <div class = "enemigo">
+            <video class= "anim" autoplay loop muted playsinline>
+              <source src="animations/Gunner.webm" type="video/webm">
+            </video>
+            <div class = "desc_enemigo">
+              <h4>Buitre Saguaro</h4>
+              <p>"Piun Piun"</p>
+            </div>
+          </div>
+
+          <!---------------Nopal--------------->
+          <div class = "enemigo">
+            <video class= "anim" autoplay loop muted playsinline>
+              <source src="animations/NopalIdle.webm" type="video/webm">
+            </video>
+            <div class = "desc_enemigo"> 
+              <h4>Bandido Nopal</h4>
+              <p> Te mete una hostia que te olvidas hasta del nombre de tu madre</p>
+            </div>
+          </div>
+
+          <!---------------Toritorortori--------------->
+          <div class = "enemigo">
+            <video class= "anim" autoplay loop muted playsinline>
+              <source src="animations/Heavy.webm" type="video/webm">
+            </video>
+            <div class = "desc_enemigo">
+              <h4>Espinotauro</h4>
+              <p>"Te me acercas y te clavo al suelo"</p>
+            </div>
+          </div>
+
+          <!---------------Misterio....--------------->
+          <div class = "enemigo">
+            <video class= "anim" autoplay loop muted playsinline>
+              <source src="animations/mystery.webm" type="video/webm">
+            </video>
+            <div class = "desc_enemigo">
+              <h4>???</h4>
+              <p>Vas a tener que probar el juego para conocer más...</p>
+            </div>
+          </div>
+        </div>
+
+        <button class = "flecha_der">&#10095;</button>
+
+      </div>
     </div>
 
     <!--------------------------EQUIPO-------------------------->
@@ -70,7 +150,7 @@
 
       <div class="imagen_equipo">
         <figure class="foto-miembro">
-          <img src="images/team/wholeteam.png" usemap="#mapa" width= "500px">
+          <img src="portraits/group.png" usemap="#mapa" width= "600px">
           <figcaption>Pasa el ratón sobre los miembros para conocerles mejor...</figcaption>
         </figure>
 
@@ -78,94 +158,31 @@
       
 
       <map name = "mapa">
-        <area shape="rect" coords="0, 0, 150, 200" alt="Zona1" href="#"
-          data-zona="zonaEdu">
-
-        <area shape="rect" coords="150, 0, 150, 200" alt="Zona1" href="#"
+        <area shape="rect" coords="0, 0, 200, 300" alt="Zona1" href="#"
           data-zona="zonaDiego">
 
-        <area shape="rect" coords="300, 0, 150, 200" alt="Zona1" href="#"
+        <area shape="rect" coords="200, 0, 400, 300" alt="Zona1" href="#"
+          data-zona="zonaEdu">
+
+        <area shape="rect" coords="400, 0, 600, 300" alt="Zona1" href="#"
+          data-zona="zonaDavid">
+
+        <area shape="rect" coords="0, 300, 200, 600" alt="Zona1" href="#"
           data-zona="zonaCandela">
 
-        <area shape="rect" coords="0, 200, 150, 200" alt="Zona1" href="#"
+        <area shape="rect" coords="200, 300, 400, 600" alt="Zona1" href="#"
           data-zona="zonaAndrea">
 
-        <area shape="rect" coords="150, 200, 150, 200" alt="Zona1" href="#"
+        <area shape="rect" coords="400, 300, 600, 600" alt="Zona1" href="#"
           data-zona="zonaAntonio">
-
-        <area shape="rect" coords="150, 200, 150, 200" alt="Zona1" href="#"
-          data-zona="zonaDavid">
 
       </map>
 
       <div id="info"></div>
 
-      
  
     </div>
             
-
-
-
-    <h2 id="equipo">EL EQUIPO</h2>
-    <div class="miembros_equipo">
-      
-
-      <div class="miembro">
-        <div class="miembro_img">
-          <img src="images/members/bacaneria.jpg" alt="Foto de Edu" width="150px"/>
-        </div>
-        <div class="miembro_info">
-          <h3> EL DIEGO</h3>
-          <h4> PROGRAMADOR JEFE</h4>
-          <p> Pues programa muy bien</p>
-        </div>
-      </div>
-
-      <div class="miembro">
-        <div class="miembro_img">
-          <img src="images/members/bacaneria.jpg" alt="Foto de Edu" width="150px"/>
-        </div>
-        <div class="miembro_info">
-          <h3> LA CANDELA</h3>
-          <h4> ARTISTA 3D Y 2D</h4>
-          <p> Pues dibuja ahí regular</p>
-        </div>
-      </div>
-
-      <div class="miembro">
-        <div class="miembro_img">
-          <img src="images/members/bacaneria.jpg" alt="Foto de Edu" width="150px"/>
-        </div>
-        <div class="miembro_info">
-          <h3> LA ANDREA</h3>
-          <h4> PROGRAMADORA </h4>
-          <p> Pues programa muy bien</p>
-        </div>
-      </div>
-
-      <div class="miembro">
-        <div class="miembro_img">
-          <img src="images/members/bacaneria.jpg" alt="Foto de Edu" width="150px"/>
-        </div>
-        <div class="miembro_info">
-          <h3> EL ANTONIO</h3>
-          <h4> MÚSICO Y PROGRAMADOR</h4>
-          <p> Pues musiquea y programa</p>
-        </div>
-      </div>
-
-      <div class="miembro">
-        <div class="miembro_img">
-          <img src="images/members/bacaneria.jpg" alt="Foto de Edu" width="150px"/>
-        </div>
-        <div class="miembro_info">
-          <h3> EL DAVID</h3>
-          <h4> DISEÑADOR DE MECÁNICAS</h4>
-          <p> Pues gamedesignea</p>
-        </div>
-      </div>
-
 
       <!--------------------------CONTACTO-------------------------->
     <div class = "titulo">
@@ -195,24 +212,33 @@
         </a>
       </div>
 
-      <h4>Nuestro Github:</h4>
-      <div class="seccion_contacto">
-        <a href="https://github.com/TheBigBoneTeam/Proyecto_Coyote" target="_blank">
-        <p>Proyecto Coyote</p>
-        </a>
+      
+      <div class="links">
+        <div class="seccion_contacto">
+          <h4>Nuestro Github:</h4>
+          <a href="https://github.com/TheBigBoneTeam/Proyecto_Coyote" target="_blank">
+          <p>Proyecto Coyote</p>
+          </a>
+        </div>
+
+        <div class="seccion_contacto">
+
+          <h4>Nuestro Itch.io:</h4>
+          <a href="https://the-big-bone-team.itch.io" target="_blank">
+          <p>Proyecto Coyote</p>
+          </a>
+          
+        </div>
       </div>
       
+      
 
-      <h4>Nuestro Itch.io:</h4>
-      <div class="seccion_contacto">
-        <a href="https://the-big-bone-team.itch.io" target="_blank">
-        <p>Proyecto Coyote</p>
-        </a>
-      </div>
+      
       
     </div>
 
 
     <script src="team_hover.js"></script>
+    <script src="carrusel_scroll.js"></script>
   </body>
 </html>
