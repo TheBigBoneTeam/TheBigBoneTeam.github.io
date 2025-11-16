@@ -12,9 +12,10 @@ areas.forEach(area=> {
                 info.innerHTML = `
                     <div class="miembro">  
                         <div class="miembro_info">
-                            <h3> EL DIEGO</h3>
-                            <h4> PROGRAMADOR TOCHO</h4>
-                            <p> Está loco.</p>
+                            <h3> DIEGO</h3>
+                            <h4> PROGRAMADOR JEFE</h4>
+                            <p> Me gustan los libros con dibujos y los juegos sin gameplay.</p>
+                            <i> Juego favorito: The Great Ace Attorney 2 Resolve</i>
                         </div>
                         <div class="miembro_img">
                                 <img src="portraits/Diego.gif" alt="Foto de Diego" width="360%"/>
@@ -27,9 +28,10 @@ areas.forEach(area=> {
                 info.innerHTML = `
                     <div class="miembro">  
                         <div class="miembro_info">
-                            <h3> EL EDU</h3>
-                            <h4> ARTISTA 3D y ARTISTA TÉCNICO</h4>
-                            <p> Te hace unas animaciones de puta madre en medio segundo</p>
+                            <h3> EDU</h3>
+                            <h4> ARTISTA TÉCNICO, CONCEPT ARTIST, MODELADOR Y ANIMADOR 3D</h4>
+                            <p> Amante del western, los insectos, los robots y las criaturas fantásticas</p>
+                            <i> Juego favorito: Ultrakill</i>
                         </div>
                         <div class="miembro_img">
                                 <img src="portraits/Edu.gif" alt="Foto de Edu" width="360%"/>
@@ -42,9 +44,10 @@ areas.forEach(area=> {
                 info.innerHTML = `
                     <div class="miembro">  
                         <div class="miembro_info">
-                            <h3> EL DAVID</h3>
-                            <h4> LEVEL DESIGNER</h4>
-                            <p> Colocador de props profesional</p>
+                            <h3> DEIVI </h3>
+                            <h4> GAME DESIGNER Y GUIONISTA</h4>
+                            <p> Me encanta el terror, los dinosaurios y los dulces</p>
+                            <i> Juego favorito: Kirby Triple Deluxe</i>
                         </div>
                         <div class="miembro_img">
                                 <img src="portraits/David.gif" alt="Foto de David" width="360%"/>
@@ -57,9 +60,10 @@ areas.forEach(area=> {
                 info.innerHTML = `
                     <div class="miembro">  
                         <div class="miembro_info">
-                            <h3> LA CANDELA</h3>
-                            <h4> ARTISTA 3D y WEBADORA </h4>
-                            <p> Dibuja y modela y tal (</p>
+                            <h3> CANDELA</h3>
+                            <h4> CONCEPT ARTIST, ARTISTA 3D Y PROGRAMADORA WEB</h4>
+                            <p> Me gustan los píxeles, Talking Heads y comer gazpacho </p>
+                            <i> Juego favorito: Disco Elysium</i>
                         </div>
                         <div class="miembro_img">
                                 <img src="portraits/Candela.gif" alt="Foto de Edu" width="360%"/>
@@ -72,7 +76,7 @@ areas.forEach(area=> {
                 info.innerHTML = `
                     <div class="miembro">  
                         <div class="miembro_info">
-                            <h3> LA ANDREA</h3>
+                            <h3> ANDREA</h3>
                             <h4> PROGRAMADORA </h4>
                             <p> Ten cuidado que tiene un cuchillo. </p>
                         </div>
@@ -88,8 +92,8 @@ areas.forEach(area=> {
                     <div class="miembro">  
                         <div class="miembro_info">
                             <h3> EL ANTONIO</h3>
-                            <h4> MÚSICO Y PROGRAMADOR</h4>
-                            <p> ole que arte. </p>
+                            <h4> MÚSICO, SOUND DESIGNER Y PROGRAMADOR</h4>
+                            <p> Me gusta el drag, la Semana Santa y no comer animales. </p>
                         </div>
                         <div class="miembro_img">
                                 <img src="portraits/Antonio.gif" alt="Foto de Edu" width="360%"/>

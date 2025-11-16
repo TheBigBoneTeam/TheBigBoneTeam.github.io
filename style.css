@@ -369,7 +369,7 @@ figcaption{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5%;
     vertical-align: top;
     width: 100%;
 
@@ -385,6 +385,7 @@ figcaption{
 #info{
     margin-top: 15px;
     color:#fdfdfd;
+    background-color: #000000;
     width: 50%;
 }
 
