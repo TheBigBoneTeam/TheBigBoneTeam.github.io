@@ -78,7 +78,7 @@ areas.forEach(area=> {
                         <div class="miembro_info">
                             <h3> ANDREA</h3>
                             <h4> PROGRAMADORA DE GAMEPLAY</h4>
-                            <p> Me gustan las historiasm en cualquier formato. </p>
+                            <p> Me gustan las historias en cualquier formato. </p>
                             <i> Juego favorito: Hollow Knight</i>
                         </div>
                         <div class="miembro_img">
