@@ -77,8 +77,9 @@ areas.forEach(area=> {
                     <div class="miembro">  
                         <div class="miembro_info">
                             <h3> ANDREA</h3>
-                            <h4> PROGRAMADORA </h4>
-                            <p> Ten cuidado que tiene un cuchillo. </p>
+                            <h4> PROGRAMADORA DE GAMEPLAY</h4>
+                            <p> Me gustan las historiasm en cualquier formato. </p>
+                            <i> Juego favorito: Hollow Knight</i>
                         </div>
                         <div class="miembro_img">
                                 <img src="portraits/Andrea.gif" alt="Foto de Edu" width="360%"/>
@@ -94,6 +95,7 @@ areas.forEach(area=> {
                             <h3> EL ANTONIO</h3>
                             <h4> MÚSICO, SOUND DESIGNER Y PROGRAMADOR</h4>
                             <p> Me gusta el drag, la Semana Santa y no comer animales. </p>
+                            <i> Juego favorito: Kingdom Hearts</i>
                         </div>
                         <div class="miembro_img">
                                 <img src="portraits/Antonio.gif" alt="Foto de Edu" width="360%"/>
